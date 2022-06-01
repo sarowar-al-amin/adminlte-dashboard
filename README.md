@@ -63,3 +63,14 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # adminlte-dashboard
+### Things to do after downloading the project in order to run
+
+
+- **[Download adminlte version 3.2.* ]
+- **[Extract adminlte].
+- **[create a folder in public directory]
+- **[Copy dist and plugins directories from extracted directory to that folder]
+- **[Use any page from adminlte you like]
+- **[Don't forget to adjust the script location and src location]
+
+First 3 steps is a must to run this project
