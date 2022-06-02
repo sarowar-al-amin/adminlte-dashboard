@@ -261,6 +261,6 @@
   <!-- AdminLTE for demo purposes -->
   {{-- Demo js is comment out to prevent test case --}}
   {{-- <script src="template/dist/js/demo.js"></script> --}}
-  <script src="plugins/chart.js/Chart.min.js"></script>
+  <script src="template/plugins/chart.js/Chart.min.js"></script>
   <script src="template/dist/js/pages/dashboard3.js"></script>
 @endsection
