@@ -1,8 +1,8 @@
-@extends('adminlte.layout')
+@extends('template.layout')
 
 @section('content-header')
   {{-- This is content header --}}
-  @include('adminlte.content.header')
+  @include('template.content.header')
 @endsection
 
 @section('main-content')
@@ -75,7 +75,7 @@
                 <tbody>
                 <tr>
                   <td>
-                    <img src="admin-lte/dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
+                    <img src="template/dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
                     Some Product
                   </td>
                   <td>$13 USD</td>
@@ -94,7 +94,7 @@
                 </tr>
                 <tr>
                   <td>
-                    <img src="admin-lte/dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
+                    <img src="template/dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
                     Another Product
                   </td>
                   <td>$29 USD</td>
@@ -113,7 +113,7 @@
                 </tr>
                 <tr>
                   <td>
-                    <img src="admin-lte/dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
+                    <img src="template/dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
                     Amazing Product
                   </td>
                   <td>$1,230 USD</td>
@@ -132,7 +132,7 @@
                 </tr>
                 <tr>
                   <td>
-                    <img src="admin-lte/dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
+                    <img src="template/dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
                     Perfect Item
                     <span class="badge bg-danger">NEW</span>
                   </td>
@@ -260,7 +260,7 @@
 @section('special-scripts')
   <!-- AdminLTE for demo purposes -->
   {{-- Demo js is comment out to prevent test case --}}
-  {{-- <script src="admin-lte/dist/js/demo.js"></script> --}}
+  {{-- <script src="template/dist/js/demo.js"></script> --}}
   <script src="plugins/chart.js/Chart.min.js"></script>
-  <script src="admin-lte/dist/js/pages/dashboard3.js"></script>
+  <script src="template/dist/js/pages/dashboard3.js"></script>
 @endsection
