@@ -1,14 +1,4 @@
 @extends('adminlte.layout')
-{{-- Moving navbar and sidebar to the main layout file --}}
-{{-- @section('navbar')
-  This is navigation bar
-  @include('adminlte.navbar')
-@endsection
-
-@section('sidebar')
-  this sidebar
-  @include('adminlte.sidebar')
-@endsection --}}
 
 @section('content-header')
   {{-- This is content header --}}
@@ -267,8 +257,10 @@
   </div>
 @endsection
 
-{{-- Moving footer part to the main layout file --}}
-{{-- @section('main-footer')
-  Main footer
-  @include('adminlte.footer')
-@endsection --}}
+@section('special-scripts')
+  <!-- AdminLTE for demo purposes -->
+  {{-- Demo js is comment out to prevent test case --}}
+  {{-- <script src="admin-lte/dist/js/demo.js"></script> --}}
+  <script src="plugins/chart.js/Chart.min.js"></script>
+  <script src="admin-lte/dist/js/pages/dashboard3.js"></script>
+@endsection
